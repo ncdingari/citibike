@@ -3,11 +3,9 @@
 #ignore all directories named archive
 archive/
 
-#ignore all directories containing data or parquet files
-data/
-rawdata/
-weather/
+#ignore all directories parquet files
 spark-warehouse/
+*.crc
 
 #ignore all directories named documents, figures or proposal
 documents/
@@ -23,7 +21,8 @@ proposal/
 *.pptx
 
 #ignore citibike.csv (3+GB)
-citibike.csv
+citibikeNYC.csv
+citibikeNYCRaw_sample_20.csv
 
 
 # Packages #
